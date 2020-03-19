@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrap {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+}
+
+.box {
+	width: 300px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+
+  margin: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+.img1 {
+  width: 300px;
+  height: 600px;
+	background: url('./img/1.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.box h1 {
+  color: #fff;
+  margin-top: -58px;
+	padding: 15px;
+	font-weight: 100;
+	font-size: 25px;
+	background: rgba(0,0,0,0.8);
+	box-shadow: 0 0 30px rgba(0,0,0,0.8);
+}
+
+.poster {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  background: #333333;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.poster > div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.poster > div:after {
+  content: '';
+  width: 100%;
+  height: 1px;
+  margin-top: 10px;
+  background: #616060;
+}
+
+.poster p {
+  color: #F97F1F;
+  font-size: 12px;
+}
+
+.poster h4 {
+  font-size: 20px;
+}
+
+
+
+
+.img2 {
+  width: 300px;
+  height: 600px;
+	background: url('./img/2.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.img3 {
+  width: 300px;
+  height: 600px;
+	background: url('./img/3.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.img4 {
+  width: 300px;
+  height: 600px;
+	background: url('./img/4.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.img5 {
+  width: 300px;
+  height: 600px;
+	background: url('./img/5.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+
+.img6 {
+  width: 300px;
+  height: 600px;
+	background: url('./img/15.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.img7 {
+  width: 300px;
+  height: 600px;
+	background: url('./img/20.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.img8 {
+  width: 300px;
+  height: 600px;
+	background: url('./img/25.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.img9 {
+  width: 300px;
+  height: 600px;
+	background: url('./img/30.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.img10 {
+  width: 300px;
+  height: 600px;
+	background: url('./img/35.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.img11 {
+  width: 300px;
+  height: 600px;
+	background: url('./img/40.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.img12 {
+  width: 300px;
+  height: 600px;
+	background: url('./img/45.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.img13 {
+  width: 300px;
+  height: 600px;
+	background: url('./img/50.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.img14 {
+  width: 300px;
+  height: 600px;
+	background: url('./img/55.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.img15 {
+  width: 300px;
+  height: 600px;
+	background: url('./img/60.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.img16 {
+  width: 300px;
+  height: 600px;
+	background: url('./img/65.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}

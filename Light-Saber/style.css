@@ -1,0 +1,141 @@
+body {
+  background: #333;
+  color: #fff;
+  font-family: arial;
+}
+
+.the-demo {
+  width: 960px;
+  margin: 0 auto;
+  background: white;
+}
+
+.example-item {
+  float: left;
+  width: 25%;
+  padding-top: 325px;
+}
+
+
+.lightsaber { position: relative; }
+
+.lightsaber label {
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 88;
+  text-indent: -9999px;
+  width: 15px;
+  height: 50px;
+  border-bottom: solid 4px grey;
+  border-top: solid 5px grey;
+  border-radius: 5px;
+  background: -webkit-linear-gradient(left, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%);
+}
+
+.lightsaber .switch {
+  width: 5px;
+  height: 10px;
+  display: block;
+  position: absolute;
+  bottom: 25px;
+  left: 13px;
+  transition: left 200ms;
+  border-radius: 10px;
+}
+
+.lightsaber input[type=checkbox] {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 77;
+}
+
+.lightsaber .plasma {
+  transition: height 300ms;
+  border-radius: 12px 12px 0 0;
+  position: absolute;
+  bottom: 55px;
+  left: 2px;
+  width: 10px;
+  display: block;
+  filter: blur(1px);
+  height: 0;
+}
+
+
+.lightsaber input[type=checkbox]:checked ~ div.plasma {
+  height: 250px;
+}
+
+.lightsaber input[type=checkbox]:hover ~ div.switch {
+  background: #c09853;
+  left: 12px;
+}
+
+.lightsaber input[type=checkbox]:checked ~ div.switch {
+  background: #468847;
+}
+
+.yoda {
+  background: -webkit-linear-gradient(left, rgb(135,220,90) 0%,rgb(254,254,254) 30%,rgb(254,254,254) 50%,rgb(254,254,254) 70%,rgb(135,220,90) 100%);
+  animation-name: yoda;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+/*
+.vader {
+  background: -webkit-linear-gradient(left, rgba(229,17,21,1) 0%,rgba(254,254,254,1) 30%,rgba(254,254,254,1) 47%,rgba(254,254,254,1) 71%,rgba(229,17,21,1) 100%);
+  animation-name: vader;
+  animation-duration: 2s; 
+  animation-iteration-count: infinite;
+}
+
+.windu {
+  background: -webkit-linear-gradient(left, rgba(202,116,221,1) 0%,rgba(254,254,254,1) 30%,rgba(254,254,254,1) 47%,rgba(254,254,254,1) 71%,rgba(202,116,221,1) 100%);
+  animation-name: windu;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.obi-wan {
+  background: -webkit-linear-gradient(left, rgba(55,132,214,1) 0%,rgba(254,254,254,1) 30%,rgba(254,254,254,1) 47%,rgba(254,254,254,1) 71%,rgba(55,132,214,1) 100%);
+  animation-name: obi-wan;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+*/
+
+div {
+  transform : translateZ(0); 
+}
+
+/* Animations */
+@keyframes yoda {
+  from { box-shadow: 0 0 10px #7EC855; }
+  50% { box-shadow: 0 0 16px #7EC855; }
+  to { box-shadow: 0 0 10px #7EC855; }
+}
+
+/*
+@keyframes vader {
+  from { box-shadow: 0 0 10px #e51115; }
+  50% { box-shadow: 0 0 16px #e51115; }
+  to { box-shadow: 0 0 10px #e51115; }
+}
+
+@keyframes windu {
+  from { box-shadow: 0 0 10px #ca74dd; }
+  50% { box-shadow: 0 0 16px #ca74dd; }
+  to { box-shadow: 0 0 10px #ca74dd; }
+}
+
+@keyframes obi-wan {
+  from { box-shadow: 0 0 10px #3784d6; }
+  50% { box-shadow: 0 0 16px #3784d6; }
+  to { box-shadow: 0 0 10px #3784d6; }
+}
+*/

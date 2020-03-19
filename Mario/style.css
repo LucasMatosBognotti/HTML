@@ -1,0 +1,159 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  overflow-x: hidden;
+  background: rgb(182, 179, 179);
+}
+
+.container-2 {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
+  margin: 5px 0 5px 0;
+}
+
+/*==================================================================*/
+.mushroom {
+  --pixel-size: 20px;
+  display: grid;
+  grid-template-columns: repeat(17, var(--pixel-size));
+  grid-template-rows: repeat(16, var(--pixel-size));
+
+  transform: scale(1);
+  transition: 1s;
+}
+
+.mushroom:hover {
+  grid-template-columns: repeat(16, var(--pixel-size));
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+
+.mushroom-pixel {
+  background-color: var(--pixel-color, transparent);
+}
+
+
+/*==================================================================*/
+.mario {
+  --pixel-size: 20px;
+  display: grid;
+  grid-template-columns: repeat(14, var(--pixel-size));
+  grid-template-rows: repeat(16, var(--pixel-size));
+  
+  transform: scale(1);
+  transition: 1s;
+}
+
+.mario:hover {
+  grid-template-columns: repeat(13, var(--pixel-size));
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.mario-pixel {
+  background-color: var(--pixel-color, transparent);
+}
+
+
+/*==================================================================*/
+.star {
+  --pixel-size: 20px;
+  display: grid;
+  grid-template-columns: repeat(17, var(--pixel-size));
+  grid-template-rows: repeat(16, var(--pixel-size));
+  
+  transform: scale(1);
+  transition: 1s;
+}
+
+.star:hover {
+  grid-template-columns: repeat(16, var(--pixel-size));
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+
+.star-pixel {
+  background-color: var(--pixel-color, transparent);
+}
+
+
+/*==================================================================*/
+.flower {
+  --pixel-size: 20px;
+  display: grid;
+  grid-template-columns: repeat(17, var(--pixel-size));
+  grid-template-rows: repeat(16, var(--pixel-size));
+  
+  transform: scale(1);
+  transition: 1s;
+}
+
+.flower:hover {
+  grid-template-columns: repeat(16, var(--pixel-size));
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.flower-pixel {
+  background-color: var(--pixel-color, transparent);
+}
+
+
+/*==================================================================*/
+.chance {
+  --pixel-size: 20px;
+  display: grid;
+  grid-template-columns: repeat(17, var(--pixel-size));
+  grid-template-rows: repeat(16, var(--pixel-size));
+  
+  transform: scale(1);
+  transition: 1s;
+}
+
+.chance:hover {
+  grid-template-columns: repeat(16, var(--pixel-size));
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.chance-pixel {
+  background-color: var(--pixel-color, transparent);
+}
+
+
+/*==================================================================*/
+.boo {
+  --pixel-size: 20px;
+  display: grid;
+  grid-template-columns: repeat(17, var(--pixel-size));
+  grid-template-rows: repeat(16, var(--pixel-size));
+
+  transform: scale(1);
+  transition: 1s;
+}
+
+.boo:hover {
+  grid-template-columns: repeat(16, var(--pixel-size));
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.boo-pixel {
+  background-color: var(--pixel-color, transparent);
+}
+

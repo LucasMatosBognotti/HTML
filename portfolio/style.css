@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width:  100%;
+}
+
+body {
+  font: 20px Montserrat, sans-serif;
+  line-height: 1.8;
+  color: #f5f6f7;
+  background-color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  background: grey;
+}
+
+.navbar-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.nav-container {
+  display: contents;
+  align-self: center;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav li {
+  padding: 20px;
+}
+
+.fill { 
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.navbar {
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+.intro-section {
+  display: table;
+  height: auto;
+  text-align: center;
+  padding: 100px 0;
+  background: url(https://static.pexels.com/photos/96426/pexels-photo-96426.jpeg) bottom center no-repeat #000;
+  background-size: cover;
+}
+
+.intro-section .intro-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.intro-body .row {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.about-section {
+  display: table;
+  height: auto;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.about-section .about-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.about-body .row{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.portfolio-section{
+  display: table;
+  height: auto;
+  text-align: center;
+  padding: 100px 0;
+  background-color: #fff;
+  color: #000; /* text color */
+}
+
+.portfolio-section .portfolio-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.portfolio-body .row{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.contact-section{
+  display: table;
+  height: auto;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.contact-section .contact-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.contact-body .row{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.btn-white {
+  border: 1px solid #f5f6f7; /*#42DCA3;*/
+  color: #f5f6f7; /*#42DCA3;*/
+  background-color: transparent;
+}
+
+.btn-circle{
+  border-radius: 25px;
+  outline: 0;
+  color: #fff;
+  background: rgba(255,255,255,.1);
+}

@@ -1,0 +1,267 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: poppins;
+}
+
+nav, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+section > p {
+  max-width: 800px;
+  text-align: center;
+  margin-bottom: 35px;
+  padding: 0 20px;
+  line-height: 2;
+}
+
+/* MENU */
+
+.menu {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 50px;
+}
+
+.menu h2 {
+  font-size: 3rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.menu-nav {
+  display: flex;
+}
+
+.menu-nav li {
+  margin: 0 30px;
+}
+
+.menu-nav li:first-child {
+  margin-left: 0;
+}
+
+.menu-nav li:last-child {
+  margin-right: 0;
+}
+
+.menu-nav li a {
+  font-size: 1.8rem;
+  letter-spacing: 0.3rem;
+}
+
+@media(max-width:700px) {
+  .menu {
+    flex-direction: column;
+  }
+  .menu h2 {
+    margin-bottom: 15px;
+  }
+  .menu-nav li {
+    margin: 0 7px;
+  }
+}
+
+/* Banner */
+.banner-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 110px 100px;
+
+  position: relative;
+  justify-content: center;
+  min-height: 100vh;
+  color: #fff;
+  text-align: center;
+}
+
+@media (max-width:1000px) {
+  .banner-area {
+    padding: 100px 50px;
+  }
+}
+
+@media (max-width:600px) {
+  .banner-area {
+    padding: 125px 30px;
+  }
+}
+
+.banner-area .banner-img{
+  background: url(img/lads.jpg) 50% 50% no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  z-index: -1;
+}
+
+.banner-area h1 {
+  font-family: merienda;
+  font-size: 6rem;
+  margin-bottom: 15px;
+}
+
+.banner-area h3 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.banner-btn {
+  font-size: 1.4rem;
+  font-weight: bolder;
+  padding: 15px 35px;
+  background: crimson;
+  border-radius: 50px;
+  text-transform: uppercase;
+}
+
+@media (max-width:800px) {
+  .banner-area {
+    min-height: 680px;
+  }
+  .banner-area h1 {
+    font-size: 3.2rem;
+  }
+  .banner-area h3 {
+    font-size: 2rem;
+  }
+  .banner-btn {
+    padding: 15px 40px;
+  }
+}
+
+/* ABOUT */
+
+.about-area {
+  margin-top: 60px;
+}
+
+.about-content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-content li {
+  height: 290px;
+  padding: 20px;
+  background-clip: content-box;
+  background-size: cover;
+  background-position: center;
+}
+
+.about-left {
+  flex-basis: 40%;
+  background: url(img/break.jpg) 50% 50% no-repeat;
+}
+
+.about-right {
+  flex-basis: 60%;
+}
+
+.about-area p {
+  max-width: 800px;
+  margin-bottom: 35px;
+  line-height: 1.5;
+  text-align: left;
+  padding-left: 0;
+}
+
+.about-title {
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.about-right h2 {
+  font-size: 3rem;
+  margin-bottom: 3%;
+}
+
+.about-right p {
+  font-size: 1.5rem;
+}
+
+.about-btn {
+  background: crimson;
+  padding: 15px 35px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+
+/* Services */
+
+.services-area {
+  margin-top: 60px;
+  background: #ddd;
+}
+
+
+.services-content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.services-content li {
+  padding: 0 30px;
+  flex-basis: 33%;
+  text-align: center;
+}
+
+.services-content li i {
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+.services-content li h4 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: crimson;
+}
+
+.services-content li p {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.services-title {
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-bottom: 5%;
+  text-align: center;
+}

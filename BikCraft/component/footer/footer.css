@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  display: flex;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*============================================*/
+.quebra {
+  width: 100%;
+  height: 200px;
+  background: url('../../img/bg-footer.jpg') 50% 50% no-repeat;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.quote-externo {  
+  max-width: 400px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	color: white;
+}
+
+.quote-externo p {
+  font-size: 1.4rem;
+  font-style: italic;
+  line-height: 20px;
+}
+
+.quote-externo p:before, .quote-externo p:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #fff;
+	margin: 14px auto 10px auto;
+}
+
+.quote-externo cite {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: .1em;
+}
+
+/*================================================*/
+
+.footer {
+  background: black;
+  padding: 20px 0 ;
+}
+
+.footer h3:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #fec63e;
+	margin: 6px 0 12px 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.footer-historia {
+  max-width: 400px;
+  margin: 0 10px 0 10px;
+
+}
+
+.footer-historia h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 25px;
+  color: #fec63e;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+
+.footer-historia p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.4rem;
+  line-height: 20px;
+  color: white;
+
+  margin-top: 10px;
+}
+
+.footer-contato {
+  max-width: 400px;
+  margin: 0 10px 0 10px;
+}
+
+.footer-contato h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 25px;
+  color: #fec63e;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+
+.footer-contato ul {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.4rem;
+  line-height: 20px;
+  color: white;
+}
+
+.footer-redes {
+  max-width: 400px;
+  margin: 0 10px 0 10px;
+}
+
+.footer-redes h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 25px;
+  color: #fec63e;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+
+.footer-redes ul {
+  display: flex;
+}
+
+.footer-redes ul li img {
+	border: 3px solid #fec63e;
+	display: block;
+  padding: 10px;
+  margin: 0 10px 0 10px;
+}
+
+/*============================================*/
+.copy {
+  background: #fec63e;
+}
+
+.copy-container {
+  max-width: 1200px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.copy-container p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.4rem;
+  line-height: 20px;
+}

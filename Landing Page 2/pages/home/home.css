@@ -1,0 +1,55 @@
+
+body {
+  background: url(../../img/lads.jpg) center no-repeat;
+}
+
+
+/* ==============TEXT================= */
+
+
+  .text {
+    height: 80vh;
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+  .text h1 {
+    font-size: 6rem;
+    font-family: Source Sans Pro;
+    font-weight: 300;
+    color: white;
+    text-transform: uppercase;
+
+  }
+
+  .text p {
+    font-size: 2rem;
+    font-family: Source Sans Pro;
+    font-weight: lighter;
+    color: white;
+    letter-spacing: 1.5rem;
+    margin-top: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .menu-container h1 {
+      margin-right: 80px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .text {
+      text-align: center;
+    }
+    .text h1 {
+      font-size: 5rem;
+    }   
+    .text p {
+      font-size: 1.5rem;
+      letter-spacing: 1rem;
+    }
+  }
+/* =============================== */

@@ -1,0 +1,53 @@
+/* ====================RESET======================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+/* ================================================= */
+
+.bg-img {
+  background: url(nuk.jpg);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: Prime;
+}
+
+.middle {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  letter-spacing: 30px;
+  font-weight: 100;
+}
+
+#demo {
+  font-weight: lighter;
+  word-spacing: 20px;
+  margin-top: 20px;
+}
+
+hr {
+  margin: auto 0;
+  width: 100%;
+  border: 1.5px solid white;
+}
+
+/* ================================================= */
+
+/* ================================================= */

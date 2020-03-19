@@ -1,0 +1,105 @@
+/*========================================================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: 'Carter One', cursive, Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  overflow-y: hidden;
+  
+}
+
+
+/*========================================================*/
+
+
+/*========================================================*/
+.header {
+  background: indigo;
+}
+
+.header-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header-logo {
+  height: calc(100vh * 0.1);
+  display: flex;
+  align-items: center;
+}
+/*========================================================*/
+
+
+.all {
+  height: calc(100vh * 0.8);
+  display: flex;
+  justify-content: space-between;
+  background: slateblue;
+}
+
+.nav {
+  width: 20%;
+  background: aqua;
+}
+
+.nav-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.middle {
+  height: calc(100vh * 0.8);
+  width: 80%;
+}
+
+.banner {
+  height: calc(100vh * 0.3);
+  background: darkmagenta;
+}
+
+.banner-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body {
+  height: calc(100vh * 0.5);
+  background: springgreen;
+}
+
+.body-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*========================================================*/
+
+.footer {
+  background: darkorange;
+}
+
+.footer-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-text {
+  height: calc(100vh * 0.1);
+  display: flex;
+  align-items: center;
+}

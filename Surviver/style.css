@@ -1,0 +1,52 @@
+/* ==============RESET==================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* ======================================= */
+
+.bg-img {
+  background: url(planet.jpg);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-size: Prime;
+}
+
+.middle {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  letter-spacing: 30px;
+  font-weight: 100;
+}
+
+#demo {
+  font-weight: lighter;
+  word-spacing: 20px;
+  margin-top: 20px;
+}
+
+hr {
+  margin: auto 0;
+  width: 100%;
+  border: 1.5px solid white;
+}
+
+
+/* ======================================= */
+

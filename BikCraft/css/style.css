@@ -1,0 +1,263 @@
+/* ==============================INTRO=============================== */
+.intro {
+  width: 100%;
+  height: 380px;
+  background: url('../img/bg.jpg') 50% 50% no-repeat;
+
+  display: flex;
+  align-items: center;
+
+  margin-top: -60px;
+}
+
+.container {
+  flex-direction: column;
+}
+
+.container h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+.intro-block {
+  max-width: 320px;
+  text-align: center;
+
+  color: white;
+}
+
+.intro-block p {
+  font-style: italic;
+}
+
+.intro-block p:before, .intro-block p:after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: white;
+  margin: 14px auto 10px auto;
+}
+
+.intro-block cite {
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+}
+
+/* ================================================================== */
+
+
+/* ============================PRODUTOS============================== */
+
+.prod {
+  padding: 60px 0;
+}
+
+.container h2:after {
+  content: "";
+	display: block;
+	width: 80px;
+	height: 3px;
+	background: #000;
+	margin: 2px auto;
+}
+
+.prod-list {
+  display: flex;
+}
+
+.prod-list li {
+  width: 300px;
+  background: #fec63e;
+
+  margin: 10px;
+}
+
+.prod-list div {
+  background: black;
+}
+
+.prod-list div img {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.prod-list h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  line-height: 25px;
+
+  margin-top: 20px;
+  text-align: center;
+}
+
+.prod-list li h3:after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #000;
+	margin: 2px auto;
+}
+
+.prod-list p {
+  font-style: italic;
+  padding: 20px;
+}
+
+@media screen and (max-width: 850px) {
+  .prod-list {
+    flex-direction: column;
+  }
+}
+
+/* ================================================================== */
+
+
+/* =============================PORTFOLIO============================ */
+.port {
+  background: black;
+  padding: 60px 0;
+}
+
+.port-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.port-container h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  color: #fec63e;
+
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.port-container h2:after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #fec63e;
+	margin: 2px auto;
+}
+
+.port-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.port-list li img {
+  padding: 10px;
+  height: 300px;
+}
+
+.p-white {
+  font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.4rem;
+  line-height: 2.0rem;
+  text-align: center;
+
+  color: white;
+}
+
+/* ================================================================== */
+
+
+/* ================================================================== */
+
+.quali {
+  padding: 60px 0;
+}
+
+.container h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+
+  text-align: center;
+}
+
+.container h2:after{
+	content: "";
+	display: block;
+	width: 80px;
+	height: 3px;
+	background: #000;
+	margin: 2px auto;
+}
+
+.container img {
+ margin: 50px auto;
+}
+
+.quali-container img:before {
+  content: '';
+  width: 100px;
+  height: 100px;
+  background: black;
+}
+
+.quali-list {
+  display: flex;
+}
+
+.quali-list li {
+  text-align: center;
+  padding: 40px;
+}
+
+.quali-list li:hover{
+  background: darkcyan;
+  box-shadow: -5px 5px 10px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.quali-list li:hover h3 {
+  color: #fec63e;
+}
+
+.quali-list h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 25px;
+
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.quali-list li h3:after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #000;
+	margin: 6px auto;
+}
+
+.quali-list p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.4rem;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 850px) {
+  .quali-list {
+    flex-direction: column;
+  }
+  .quali-list li {
+    padding: 20px 0;
+  }
+}
